@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Lista = styled.ul`
   display: grid;
@@ -7,8 +7,8 @@ export const Lista = styled.ul`
   row-gap: 40px;
 
   @media (max-width: 768px) {
-  grid-template-columns: 1fr;
-  column-gap: 0;
-  row-gap: 16px;
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 16px;
   }
 `
